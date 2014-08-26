@@ -8,10 +8,27 @@
 
 /* Begin PBXBuildFile section */
 		4286F47B19ACA4AB00A0A468 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4286F47A19ACA4AB00A0A468 /* AppDelegate.swift */; };
-		4286F47D19ACA4AB00A0A468 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4286F47C19ACA4AB00A0A468 /* ViewController.swift */; };
+		4286F47D19ACA4AB00A0A468 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4286F47C19ACA4AB00A0A468 /* LoginViewController.swift */; };
 		4286F48019ACA4AB00A0A468 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4286F47E19ACA4AB00A0A468 /* Main.storyboard */; };
 		4286F48219ACA4AB00A0A468 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4286F48119ACA4AB00A0A468 /* Images.xcassets */; };
 		4286F48E19ACA4AC00A0A468 /* The_Manila_ShopperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4286F48D19ACA4AC00A0A468 /* The_Manila_ShopperTests.swift */; };
+		4286F49819ACA4C700A0A468 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4286F49719ACA4C700A0A468 /* Parse.framework */; };
+		4286F4A519ACA51700A0A468 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4286F49919ACA51700A0A468 /* Accounts.framework */; };
+		4286F4A619ACA51700A0A468 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4286F49A19ACA51700A0A468 /* AudioToolbox.framework */; };
+		4286F4A719ACA51700A0A468 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4286F49B19ACA51700A0A468 /* CFNetwork.framework */; };
+		4286F4A819ACA51700A0A468 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4286F49C19ACA51700A0A468 /* CoreGraphics.framework */; };
+		4286F4A919ACA51700A0A468 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4286F49D19ACA51700A0A468 /* CoreLocation.framework */; };
+		4286F4AA19ACA51700A0A468 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4286F49E19ACA51700A0A468 /* libz.dylib */; };
+		4286F4AB19ACA51700A0A468 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4286F49F19ACA51700A0A468 /* MobileCoreServices.framework */; };
+		4286F4AC19ACA51700A0A468 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4286F4A019ACA51700A0A468 /* QuartzCore.framework */; };
+		4286F4AD19ACA51700A0A468 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4286F4A119ACA51700A0A468 /* Security.framework */; };
+		4286F4AE19ACA51700A0A468 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4286F4A219ACA51700A0A468 /* Social.framework */; };
+		4286F4AF19ACA51700A0A468 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4286F4A319ACA51700A0A468 /* StoreKit.framework */; };
+		4286F4B019ACA51700A0A468 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4286F4A419ACA51700A0A468 /* SystemConfiguration.framework */; };
+		4286F4B519ACB6ED00A0A468 /* ContributeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4286F4B419ACB6ED00A0A468 /* ContributeViewController.swift */; };
+		4286F4B719ACB74D00A0A468 /* PromoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4286F4B619ACB74D00A0A468 /* PromoTableViewController.swift */; };
+		4286F4B919ACBA6B00A0A468 /* PromoManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4286F4B819ACBA6B00A0A468 /* PromoManager.swift */; };
+		4286F4BB19ACCA9F00A0A468 /* PromoDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4286F4BA19ACCA9F00A0A468 /* PromoDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,12 +45,30 @@
 		4286F47519ACA4AB00A0A468 /* The Manila Shopper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "The Manila Shopper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4286F47919ACA4AB00A0A468 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4286F47A19ACA4AB00A0A468 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4286F47C19ACA4AB00A0A468 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4286F47C19ACA4AB00A0A468 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		4286F47F19ACA4AB00A0A468 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4286F48119ACA4AB00A0A468 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		4286F48719ACA4AC00A0A468 /* The Manila ShopperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "The Manila ShopperTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4286F48C19ACA4AC00A0A468 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4286F48D19ACA4AC00A0A468 /* The_Manila_ShopperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = The_Manila_ShopperTests.swift; sourceTree = "<group>"; };
+		4286F49719ACA4C700A0A468 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = ../Parse.framework; sourceTree = "<group>"; };
+		4286F49919ACA51700A0A468 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		4286F49A19ACA51700A0A468 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		4286F49B19ACA51700A0A468 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		4286F49C19ACA51700A0A468 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4286F49D19ACA51700A0A468 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		4286F49E19ACA51700A0A468 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		4286F49F19ACA51700A0A468 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		4286F4A019ACA51700A0A468 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		4286F4A119ACA51700A0A468 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		4286F4A219ACA51700A0A468 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		4286F4A319ACA51700A0A468 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		4286F4A419ACA51700A0A468 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		4286F4B119ACA54100A0A468 /* The Manila Shopper-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "The Manila Shopper-Bridging-Header.h"; sourceTree = "<group>"; };
+		4286F4B419ACB6ED00A0A468 /* ContributeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContributeViewController.swift; sourceTree = "<group>"; };
+		4286F4B619ACB74D00A0A468 /* PromoTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PromoTableViewController.swift; sourceTree = "<group>"; };
+		4286F4B819ACBA6B00A0A468 /* PromoManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PromoManager.swift; sourceTree = "<group>"; };
+		4286F4BA19ACCA9F00A0A468 /* PromoDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PromoDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +76,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4286F4A519ACA51700A0A468 /* Accounts.framework in Frameworks */,
+				4286F4A619ACA51700A0A468 /* AudioToolbox.framework in Frameworks */,
+				4286F4A719ACA51700A0A468 /* CFNetwork.framework in Frameworks */,
+				4286F4A819ACA51700A0A468 /* CoreGraphics.framework in Frameworks */,
+				4286F4A919ACA51700A0A468 /* CoreLocation.framework in Frameworks */,
+				4286F4AA19ACA51700A0A468 /* libz.dylib in Frameworks */,
+				4286F4AB19ACA51700A0A468 /* MobileCoreServices.framework in Frameworks */,
+				4286F4AC19ACA51700A0A468 /* QuartzCore.framework in Frameworks */,
+				4286F4AD19ACA51700A0A468 /* Security.framework in Frameworks */,
+				4286F4AE19ACA51700A0A468 /* Social.framework in Frameworks */,
+				4286F4AF19ACA51700A0A468 /* StoreKit.framework in Frameworks */,
+				4286F4B019ACA51700A0A468 /* SystemConfiguration.framework in Frameworks */,
+				4286F49819ACA4C700A0A468 /* Parse.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -57,6 +105,19 @@
 		4286F46C19ACA4AA00A0A468 = {
 			isa = PBXGroup;
 			children = (
+				4286F49919ACA51700A0A468 /* Accounts.framework */,
+				4286F49A19ACA51700A0A468 /* AudioToolbox.framework */,
+				4286F49B19ACA51700A0A468 /* CFNetwork.framework */,
+				4286F49C19ACA51700A0A468 /* CoreGraphics.framework */,
+				4286F49D19ACA51700A0A468 /* CoreLocation.framework */,
+				4286F49E19ACA51700A0A468 /* libz.dylib */,
+				4286F49F19ACA51700A0A468 /* MobileCoreServices.framework */,
+				4286F4A019ACA51700A0A468 /* QuartzCore.framework */,
+				4286F4A119ACA51700A0A468 /* Security.framework */,
+				4286F4A219ACA51700A0A468 /* Social.framework */,
+				4286F4A319ACA51700A0A468 /* StoreKit.framework */,
+				4286F4A419ACA51700A0A468 /* SystemConfiguration.framework */,
+				4286F49719ACA4C700A0A468 /* Parse.framework */,
 				4286F47719ACA4AB00A0A468 /* The Manila Shopper */,
 				4286F48A19ACA4AC00A0A468 /* The Manila ShopperTests */,
 				4286F47619ACA4AB00A0A468 /* Products */,
@@ -76,10 +137,15 @@
 			isa = PBXGroup;
 			children = (
 				4286F47A19ACA4AB00A0A468 /* AppDelegate.swift */,
-				4286F47C19ACA4AB00A0A468 /* ViewController.swift */,
+				4286F4B819ACBA6B00A0A468 /* PromoManager.swift */,
+				4286F47C19ACA4AB00A0A468 /* LoginViewController.swift */,
+				4286F4B619ACB74D00A0A468 /* PromoTableViewController.swift */,
+				4286F4BA19ACCA9F00A0A468 /* PromoDetailViewController.swift */,
 				4286F47E19ACA4AB00A0A468 /* Main.storyboard */,
+				4286F4B419ACB6ED00A0A468 /* ContributeViewController.swift */,
 				4286F48119ACA4AB00A0A468 /* Images.xcassets */,
 				4286F47819ACA4AB00A0A468 /* Supporting Files */,
+				4286F4B119ACA54100A0A468 /* The Manila Shopper-Bridging-Header.h */,
 			);
 			path = "The Manila Shopper";
 			sourceTree = "<group>";
@@ -208,7 +274,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4286F47D19ACA4AB00A0A468 /* ViewController.swift in Sources */,
+				4286F47D19ACA4AB00A0A468 /* LoginViewController.swift in Sources */,
+				4286F4B719ACB74D00A0A468 /* PromoTableViewController.swift in Sources */,
+				4286F4B519ACB6ED00A0A468 /* ContributeViewController.swift in Sources */,
+				4286F4BB19ACCA9F00A0A468 /* PromoDetailViewController.swift in Sources */,
+				4286F4B919ACBA6B00A0A468 /* PromoManager.swift in Sources */,
 				4286F47B19ACA4AB00A0A468 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -325,9 +395,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/joshua/Documents/Dev/iOS,
+				);
 				INFOPLIST_FILE = "The Manila Shopper/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "The Manila Shopper/The Manila Shopper-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -336,9 +413,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/joshua/Documents/Dev/iOS,
+				);
 				INFOPLIST_FILE = "The Manila Shopper/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "The Manila Shopper/The Manila Shopper-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -395,6 +478,7 @@
 				4286F49319ACA4AC00A0A468 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4286F49419ACA4AC00A0A468 /* Build configuration list for PBXNativeTarget "The Manila ShopperTests" */ = {
 			isa = XCConfigurationList;
@@ -403,6 +487,7 @@
 				4286F49619ACA4AC00A0A468 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

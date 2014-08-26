@@ -15,7 +15,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(application: UIApplication!, didFinishLaunchingWithOptions launchOptions: NSDictionary!) -> Bool {
-        // Override point for customization after application launch.
+
+        Parse.setApplicationId("TVs8Z3GPqMEjNRQLJNdipBx6f7aVGBV2A5r8CMUk", clientKey: "evkVrqI7AC7r27d0LfycbU5t1pSJ7PHJoROtPhOG")
+        
+        PFTwitterUtils.initializeWithConsumerKey("BwVuusN12P9gH0moiNcou9Ejc",
+            consumerSecret:"W5Ct2nE4hn0xRsBf9tKWVsNjyWMLbpirYMusKtrUX6UBPKltOd")
+    
+        println("Connection to Parse and Twitter established!")
+        
         return true
     }
 
